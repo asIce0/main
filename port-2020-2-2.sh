@@ -30,4 +30,4 @@ echo "##
 ##
 ##"
 
-iptables -n -L
+#iptables -n -L
