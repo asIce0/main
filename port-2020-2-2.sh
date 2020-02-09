@@ -21,7 +21,7 @@ systemctl restart iptables
 ;;
 *)
 #echo input open or down
-echo “$0: Usage: sh $0 \(open \| down \)”
+echo "$0: Usage: sh $0 \(open \| down \)"
 	exit 0
 ;;
 
