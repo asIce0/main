@@ -28,5 +28,3 @@ esac
 echo "##
 ##
 ##"
-
-#iptables -n -L
