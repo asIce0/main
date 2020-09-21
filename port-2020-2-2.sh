@@ -18,7 +18,6 @@ sed -i 's/-A INPUT -p tcp -m state --state NEW -m tcp --dport '"${port}"' -j ACC
 systemctl restart iptables
 ;;
 *)
-#echo input open or down
 echo "$0: Usage: sh $0 \(open \| down \)"
 	exit 0
 ;;
